@@ -1,0 +1,19 @@
+# Furry Assistant 1 — robots.txt
+# https://furryassistant1.com/robots.txt
+#
+# Note: per the robots.txt spec, a bot uses the *most specific* matching
+# User-agent group only — it does NOT inherit rules from `*`. We therefore
+# keep a single `*` group with all disallows so every crawler sees the
+# same private-path rules. AI search engines (GPTBot, ClaudeBot,
+# PerplexityBot, etc.), social previewers, and traditional search engines
+# are all welcome by default — they simply must respect the disallows below.
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin
+Disallow: /admin/
+Disallow: /pets/*/share
+Disallow: /pets/*/handoff
+
+Sitemap: https://furryassistant1.com/sitemap.xml

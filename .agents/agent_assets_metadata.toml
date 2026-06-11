@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "JsMGS1mLdL8BsfnO4t_2m"
+uri = "file://attached_assets/FurryA1_1766761740789.png"
+type = "image"
+title = "Furry Assistant 1 - App Logo"
